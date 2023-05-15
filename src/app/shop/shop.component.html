@@ -1,1 +1,10 @@
 <h1>SHOP</h1>
+
+<div class="shop-main">
+    <div *ngFor="let item of items" class="product-container">
+        <!-- <img src=""> -->
+        <p> {{ item.imgSrc}} </p>
+        <h1> {{ item.title }} </h1>
+        <p> {{item.name}} </p>
+    </div>
+</div>
